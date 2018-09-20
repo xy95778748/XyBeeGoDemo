@@ -1,8 +1,8 @@
 package controllers
 
 import (
-	"XyFirstProject/Commons"
-	"XyFirstProject/models"
+	"XyBeeGoDemo/Commons"
+	"XyBeeGoDemo/models"
 	"fmt"
 	"github.com/astaxie/beego"
 )
@@ -29,14 +29,14 @@ func (self *UserCenterController) Login() {
 		fmt.Println("exist")
 		if findUser.Pass == mUserModel.Pass {
 			fmt.Println("login success")
-			res = Commons.MakeSuccessResponse(nil)
+			res.Success(nil)
 		} else {
 			fmt.Println("login failed")
-			res = Commons.MakeFailedResponse(nil, "密码错误")
+			res.Failed("密码错误")
 		}
 	} else {
 		fmt.Println("not exist")
-		res = Commons.MakeFailedResponse(nil, "账号不存在")
+		res.Failed("账号不存在")
 	}
 
 	self.Data["json"] = &res
@@ -54,15 +54,15 @@ func (self *UserCenterController)Regist() {
 
 	if _, isExist := models.UserIsExist(mUserModel.Name); isExist == true {
 		fmt.Println("存在, 可以直接登录")
-		res = Commons.MakeFailedResponse(nil, "账号存在, 可以使用该账号直接登录")
+		res.Failed("账号存在, 可以使用该账号直接登录")
 	} else {
 		fmt.Println("查如数据库")
 		if models.InsetUser(mUserModel) == true {// success
 			fmt.Println("注册成功")
-			res = Commons.MakeSuccessResponse(nil)
+			res.Success(nil)
 		} else {
 			fmt.Println("注册失败")
-			res = Commons.MakeFailedResponse(nil, "注册失败, 清稍后再试")
+			res.Failed("注册失败, 清稍后再试")
 		}
 	}
 	self.Data["json"] = &res

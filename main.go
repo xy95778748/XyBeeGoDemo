@@ -1,7 +1,7 @@
 package main
 
 import (
-	_ "XyFirstProject/routers"
+	_ "XyBeeGoDemo/routers"
 
 	"github.com/astaxie/beego"
 )

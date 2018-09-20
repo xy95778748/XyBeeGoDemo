@@ -8,7 +8,7 @@
 package routers
 
 import (
-	"XyFirstProject/controllers"
+	"XyBeeGoDemo/controllers"
 
 	"github.com/astaxie/beego"
 )

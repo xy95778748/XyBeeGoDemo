@@ -9,14 +9,18 @@ type ResponseModel struct {
 	Data interface{}
 }
 
-func MakeSuccessResponse (data interface{}) ResponseModel {
+func (self *ResponseModel)Success(data interface{}) {
 
-	return ResponseModel{"请求成功", 0, data}
+	self.Data = data
+	self.Code = 0
+	self.Msg = "请求成功"
 }
 
-func MakeFailedResponse (data interface{}, msg string) ResponseModel {
+func (self *ResponseModel)Failed(msg string) {
 
-	return ResponseModel{msg, 1, data}
+	self.Data = nil
+	self.Msg = msg
+	self.Code = 1
 }
 
 func CheckError(err error, msg string) bool {
