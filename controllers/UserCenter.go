@@ -5,13 +5,15 @@ import (
 	"XyBeeGoDemo/models"
 	"fmt"
 	"github.com/astaxie/beego"
+	"github.com/astaxie/beego/logs"
+	"time"
 )
 
 type BaseControllerInterface interface {
 	CheckRequestMethod(method string)
 }
 
-type UserCenterController struct  {
+type UserCenterController struct {
 	beego.Controller
 }
 
@@ -22,28 +24,27 @@ func (self *UserCenterController) Login() {
 
 	self.Ctx.Input.Bind(&mUserModel.Name, "Name")
 	self.Ctx.Input.Bind(&mUserModel.Pass, "Pass")
+	pass := mUserModel.Pass
 
 	var res Commons.ResponseModel
 
-	if findUser, isExist := models.UserIsExist(mUserModel.Name); isExist == true {
-		fmt.Println("exist")
-		if findUser.Pass == mUserModel.Pass {
-			fmt.Println("login success")
+	if mUserModel.UserIsExist() {
+		beego.Debug("exist")
+		if pass == mUserModel.Pass {
 			res.Success(nil)
 		} else {
-			fmt.Println("login failed")
 			res.Failed("密码错误")
 		}
 	} else {
-		fmt.Println("not exist")
 		res.Failed("账号不存在")
 	}
+	fmt.Println(time.Now().Unix())
 
 	self.Data["json"] = &res
 	self.ServeJSON()
 }
 
-func (self *UserCenterController)Regist() {
+func (self *UserCenterController) Regist() {
 
 	mUserModel := new(models.UserModel)
 
@@ -52,20 +53,40 @@ func (self *UserCenterController)Regist() {
 
 	var res Commons.ResponseModel
 
-	if _, isExist := models.UserIsExist(mUserModel.Name); isExist == true {
-		fmt.Println("存在, 可以直接登录")
+	if mUserModel.UserIsExist() {
 		res.Failed("账号存在, 可以使用该账号直接登录")
 	} else {
-		fmt.Println("查如数据库")
-		if models.InsetUser(mUserModel) == true {// success
-			fmt.Println("注册成功")
+		if mUserModel.InsetUser() { // success
+			logs.Debug("注册成功")
 			res.Success(nil)
 		} else {
-			fmt.Println("注册失败")
 			res.Failed("注册失败, 清稍后再试")
 		}
 	}
 	self.Data["json"] = &res
 	self.ServeJSON()
 }
+
+func (self *UserCenterController) Reset() {
+
+	mUserModel := new(models.UserModel)
+
+	self.Ctx.Input.Bind(&mUserModel.Name, "Name")
+	self.Ctx.Input.Bind(&mUserModel.Pass, "Pass")
+
+	var res Commons.ResponseModel
+
+	if mUserModel.UserIsExist() {
+		if mUserModel.ResetPassword() {
+			res.Success(nil)
+		} else {
+			res.Failed("修改失败, 请稍后再试")
+		}
+	} else {
+		res.Failed("账号不存在")
+	}
+	self.Data["json"] = &res
+	self.ServeJSON()
+}
+
 

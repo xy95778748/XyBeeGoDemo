@@ -1,0 +1,364 @@
+2018/09/21 14:40:43.272 [I] [asm_amd64.s:1333]  http server Running on http://127.0.0.1:8080
+2018/09/21 14:40:57.085 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:40:57.085 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:40:57.085 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|   1.005332ms|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:40:57.324 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:40:57.324 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:40:57.324 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    633.886µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:40:57.506 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:40:57.506 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:40:57.506 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    657.992µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:40:57.674 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:40:57.674 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:40:57.674 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    656.095µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:40:57.841 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:40:57.841 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:40:57.842 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    623.618µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:40:58.004 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:40:58.004 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:40:58.004 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    644.737µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:40:58.188 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:40:58.188 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:40:58.188 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    650.862µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:40:58.363 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:40:58.363 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:40:58.363 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    654.621µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:40:58.515 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:40:58.515 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:40:58.515 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|     637.74µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:35.114 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:35.116 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:35.116 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|   2.755079ms|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:35.675 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:35.675 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:35.675 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    726.245µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:35.904 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:35.904 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:35.904 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    662.073µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:36.113 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:36.113 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:36.113 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    715.419µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:36.297 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:36.297 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:36.297 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    667.575µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:36.490 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:36.490 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:36.490 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    846.506µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:36.690 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:36.690 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:36.690 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    781.631µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:36.873 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:36.873 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:36.873 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    744.158µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:37.049 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:37.049 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:37.049 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    624.536µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:37.216 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:37.216 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:37.216 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    672.539µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:37.719 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:37.719 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:37.719 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    687.992µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:37.830 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:37.830 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:37.830 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    652.386µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:37.913 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:37.913 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:37.913 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    719.032µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:37.998 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:37.998 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:37.998 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    770.808µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:38.079 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:38.079 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:38.079 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    749.997µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:38.164 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:38.164 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:38.164 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    709.785µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:38.249 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:38.249 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:38.249 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    781.313µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:38.332 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:38.332 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:38.332 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    755.859µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:38.417 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:38.417 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:38.417 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    717.054µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:38.500 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:38.500 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:38.500 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|      675.1µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:38.584 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:38.584 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:38.584 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    712.566µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:38.668 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:38.669 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:38.669 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    739.541µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:38.752 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:38.752 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:38.752 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    671.573µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:38.839 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:38.839 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:38.839 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    803.589µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:38.922 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:38.922 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:38.922 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    740.066µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:39.007 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:39.007 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:39.007 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    683.693µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:39.089 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:39.089 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:39.089 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    767.152µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:39.172 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:39.172 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:39.172 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    774.161µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:39.257 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:39.257 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:39.257 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    901.557µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:39.338 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:39.338 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:39.338 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    758.263µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:39.424 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:39.424 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:39.424 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|     987.89µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:39.506 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:39.506 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:39.506 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    743.919µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:39.591 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:39.592 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:39.592 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    715.626µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:39.674 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:39.675 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:39.675 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    763.878µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:39.758 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:39.758 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:39.758 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    727.145µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:39.840 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:39.840 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:39.840 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    888.499µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:39.924 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:39.925 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:39.925 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    730.545µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:40.008 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:40.008 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:40.008 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    774.363µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:40.091 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:40.091 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:40.091 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    823.773µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:40.174 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:40.175 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:40.175 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    752.484µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:40.258 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:40.258 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:40.258 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    719.117µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:40.342 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:40.342 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:40.342 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    775.456µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:40.424 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:40.424 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:40.424 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    927.216µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:40.508 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:40.508 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:40.508 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    705.059µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:40.591 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:40.591 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:40.591 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|   1.086387ms|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:40.674 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:40.675 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:40.675 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|     719.22µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:40.758 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:40.758 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:40.758 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    750.365µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:40.843 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:40.843 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:40.843 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    721.126µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:40.926 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:40.926 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:40.926 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    724.856µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:41.012 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:41.012 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:41.012 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    754.699µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:41.096 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:41.096 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:41.096 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|     666.49µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:41.181 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:41.181 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:41.181 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    620.161µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:41.264 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:41.264 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:41.264 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    705.833µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:41.347 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:41.347 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:41.347 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|     680.93µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:41.430 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:41.430 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:41.430 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    763.216µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:41.514 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:41.514 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:41.514 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|     732.27µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:41.599 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:41.599 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:41.599 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    703.499µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:41.681 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:41.681 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:41.681 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    678.901µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:41.766 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:41.766 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:41.766 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    690.817µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:41.851 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:41.851 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:41.852 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    815.892µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:41.935 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:41.935 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:41.935 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    735.817µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:42.018 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:42.018 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:42.019 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    732.176µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:42.103 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:42.103 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:42.103 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    749.082µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:42.185 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:42.185 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:42.185 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    732.466µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:42.270 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:42.277 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:42.277 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|   7.111738ms|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:42.356 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:42.356 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:42.356 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    768.325µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:42.441 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:42.441 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:42.441 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    989.355µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:42.525 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:42.525 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:42.525 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    769.752µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:42.612 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:42.612 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:42.612 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    649.284µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:42.691 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:42.691 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:42.691 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|     817.77µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:42.774 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:42.774 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:42.774 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    793.862µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:42.857 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:42.858 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:42.858 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    917.555µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:42.941 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:42.941 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:42.941 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    823.369µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:43.024 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:43.024 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:43.024 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    898.151µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:43.108 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:43.108 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:43.108 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    823.616µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:43.191 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:43.191 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:43.191 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    921.012µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:43.274 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:43.274 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:43.274 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    928.305µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:43.359 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:43.359 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:43.359 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    744.897µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:43.443 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:43.443 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:43.443 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    797.805µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:43.524 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:43.524 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:43.524 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    844.264µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:43.609 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:43.609 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:43.609 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|     745.92µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:43.692 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:43.692 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:43.692 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    703.413µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:43.779 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:43.779 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:43.779 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    643.107µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:43.857 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:43.857 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:43.858 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    866.705µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:43.943 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:43.943 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:43.943 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    708.681µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:44.024 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:44.024 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:44.024 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    1.13355ms|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:44.111 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:44.111 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:44.111 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    728.403µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:44.192 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:44.193 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:44.193 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    773.914µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:44.273 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:44.273 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:44.274 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    923.469µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:44.357 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:44.357 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:44.358 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|     846.53µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:44.442 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:44.442 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:44.442 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    736.852µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:44.525 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:44.525 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:44.525 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    684.661µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:44.609 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:44.610 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:44.610 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    723.202µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:44.692 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:44.692 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:44.692 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    774.908µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:44.776 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:44.776 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:44.776 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    788.483µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:44.859 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:44.859 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:44.859 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    772.862µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:44.941 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:44.941 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:44.941 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    963.633µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:45.025 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:45.025 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:45.025 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    728.144µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:41:45.109 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:41:45.109 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:41:45.109 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    746.165µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:44:58.782 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:44:58.782 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:44:58.782 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    778.515µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:44:59.165 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:44:59.165 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:44:59.165 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    683.629µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:44:59.403 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:44:59.403 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:44:59.404 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    642.857µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:44:59.604 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:44:59.604 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:44:59.604 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    635.363µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:44:59.787 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:44:59.787 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:44:59.787 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    618.305µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:44:59.972 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:44:59.972 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:44:59.972 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    730.052µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:45:00.156 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:45:00.156 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:45:00.156 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    653.506µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:45:00.334 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:45:00.334 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:45:00.334 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    683.382µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 14:45:00.491 [D] [UserCenter.go:30]  exist 
+2018/09/21 14:45:00.491 [D] [UserCenter.go:32]  login success 
+2018/09/21 14:45:00.491 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|     763.59µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 15:02:23.021 [I] [asm_amd64.s:1333]  http server Running on http://127.0.0.1:8080
+2018/09/21 15:02:26.692 [D] [UserCenter.go:31]  exist 
+2018/09/21 15:02:26.692 [D] [UserCenter.go:33]  login success 
+2018/09/21 15:02:26.692 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    972.166µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 15:06:15.283 [I] [asm_amd64.s:1333]  http server Running on http://127.0.0.1:8080
+2018/09/21 15:06:25.206 [I] [asm_amd64.s:1333]  http server Running on http://127.0.0.1:8080
+2018/09/21 15:10:38.515 [I] [asm_amd64.s:1333]  http server Running on http://127.0.0.1:8080
+2018/09/21 15:10:40.502 [D] [UserCenter.go:32]  exist 
+2018/09/21 15:10:40.502 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    795.633µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 15:12:00.281 [I] [asm_amd64.s:1333]  http server Running on http://127.0.0.1:8080
+2018/09/21 15:12:02.732 [D] [UserCenter.go:32]  exist 
+2018/09/21 15:12:02.732 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    957.623µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
