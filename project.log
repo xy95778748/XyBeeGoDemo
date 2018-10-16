@@ -362,3 +362,285 @@
 2018/09/21 15:12:00.281 [I] [asm_amd64.s:1333]  http server Running on http://127.0.0.1:8080
 2018/09/21 15:12:02.732 [D] [UserCenter.go:32]  exist 
 2018/09/21 15:12:02.732 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    957.623µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/09/21 17:38:22.192 [I] [asm_amd64.s:1333]  http server Running on http://127.0.0.1:8080
+2018/09/21 17:38:46.985 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|   1.121428ms|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/10/16 10:59:49.312 [I] [asm_amd64.s:1333]  http server Running on http://127.0.0.1:8080
+2018/10/16 11:02:56.063 [D] [server.go:2741]  |      127.0.0.1|[43m 404 [0m|    464.262µs| nomatch|[44m GET     [0m /  
+2018/10/16 11:02:59.990 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|  11.957903ms|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/10/16 11:03:37.930 [I] [asm_amd64.s:1333]  http server Running on http://127.0.0.1:8080
+2018/10/16 11:03:48.710 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|   1.156205ms|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/10/16 11:04:44.620 [I] [asm_amd64.s:1333]  http server Running on http://127.0.0.1:8080
+2018/10/16 11:10:22.472 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|   1.583876ms|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/10/16 11:10:51.756 [I] [asm_amd64.s:1333]  http server Running on http://127.0.0.1:8080
+2018/10/16 11:11:47.678 [I] [asm_amd64.s:1333]  http server Running on http://127.0.0.1:8080
+2018/10/16 11:13:47.703 [I] [asm_amd64.s:1333]  http server Running on http://127.0.0.1:8080
+2018/10/16 11:15:16.204 [I] [asm_amd64.s:1333]  http server Running on http://127.0.0.1:8080
+2018/10/16 11:15:19.646 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|   1.030321ms|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/10/16 11:22:42.181 [I] [asm_amd64.s:1333]  http server Running on http://127.0.0.1:8080
+2018/10/16 11:22:45.774 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    986.096µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/10/16 11:22:52.038 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    628.178µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/10/16 11:23:16.220 [D] [asm_amd64.s:522]  注册成功
+2018/10/16 11:23:16.220 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|   2.678551ms|   match|[44m GET     [0m /usercenter/regist   r:/usercenter/regist/*
+2018/10/16 11:23:17.325 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    665.055µs|   match|[44m GET     [0m /usercenter/regist   r:/usercenter/regist/*
+2018/10/16 11:23:38.619 [D] [UserCenter.go:38]  exist 
+2018/10/16 11:23:38.619 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    742.313µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/10/16 11:46:50.527 [I] [asm_amd64.s:1333]  http server Running on http://127.0.0.1:8080
+2018/10/16 11:46:50.527 [I] [asm_amd64.s:1333]  Admin server Running on :8088
+2018/10/16 11:46:56.383 [D] [server.go:2741]  |      127.0.0.1|[43m 404 [0m|    511.341µs| nomatch|[44m GET     [0m /  
+2018/10/16 11:46:58.964 [D] [server.go:2741]  |      127.0.0.1|[43m 404 [0m|    242.129µs| nomatch|[44m GET     [0m /qps
+2018/10/16 11:46:58.997 [D] [server.go:2741]  |      127.0.0.1|[43m 404 [0m|    388.738µs| nomatch|[44m GET     [0m /favicon.ico
+2018/10/16 11:47:27.927 [I] [asm_amd64.s:1333]  http server Running on http://127.0.0.1:8080
+2018/10/16 11:47:27.928 [I] [asm_amd64.s:1333]  Admin server Running on localhost:8088
+2018/10/16 11:47:58.435 [D] [server.go:2741]  |      127.0.0.1|[43m 404 [0m|    331.418µs| nomatch|[44m GET     [0m /  
+2018/10/16 11:48:00.672 [D] [UserCenter.go:38]  exist 
+2018/10/16 11:48:00.673 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    760.615µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/10/16 13:46:31.547 [D] [UserCenter.go:38]  exist 
+2018/10/16 13:46:31.548 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|   1.242978ms|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/10/16 13:46:31.570 [D] [server.go:2741]  |      127.0.0.1|[43m 404 [0m|    237.479µs| nomatch|[44m GET     [0m /favicon.ico
+2018/10/16 15:19:09.862 [I] [asm_amd64.s:1333]  http server Running on http://127.0.0.1:8080
+2018/10/16 15:19:09.862 [I] [asm_amd64.s:1333]  Admin server Running on localhost:8088
+2018/10/16 15:19:19.561 [D] [server.go:2741]  |      127.0.0.1|[43m 404 [0m|    371.969µs| nomatch|[44m GET     [0m /  
+2018/10/16 15:19:21.043 [C] [asm_amd64.s:522]  the request url is  /usercenter/login
+2018/10/16 15:19:21.043 [C] [asm_amd64.s:522]  Handler crashed with error <Ormer> table: `.string` not found, make sure it was registered with `RegisterModel()`
+2018/10/16 15:19:21.043 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/asm_amd64.s:522
+2018/10/16 15:19:21.043 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/panic.go:513
+2018/10/16 15:19:21.043 [C] [asm_amd64.s:522]  /Users/xy/go/src/github.com/astaxie/beego/orm/orm.go:113
+2018/10/16 15:19:21.043 [C] [asm_amd64.s:522]  /Users/xy/go/src/github.com/astaxie/beego/orm/orm.go:127
+2018/10/16 15:19:21.043 [C] [asm_amd64.s:522]  /Users/xy/go/src/XyBeeGoDemo/models/UserCenterModel.go:54
+2018/10/16 15:19:21.043 [C] [asm_amd64.s:522]  /Users/xy/go/src/XyBeeGoDemo/controllers/UserCenter.go:30
+2018/10/16 15:19:21.044 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/asm_amd64.s:522
+2018/10/16 15:19:21.044 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/reflect/value.go:447
+2018/10/16 15:19:21.044 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/reflect/value.go:308
+2018/10/16 15:19:21.044 [C] [asm_amd64.s:522]  /Users/xy/go/src/github.com/astaxie/beego/router.go:847
+2018/10/16 15:19:21.044 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/net/http/server.go:2741
+2018/10/16 15:19:21.044 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/net/http/server.go:1847
+2018/10/16 15:19:21.044 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/asm_amd64.s:1333
+2018/10/16 15:19:21.044 [server.go:2977]  [HTTP] http: multiple response.WriteHeader calls
+2018/10/16 15:19:40.703 [C] [asm_amd64.s:522]  the request url is  /usercenter/login
+2018/10/16 15:19:40.703 [C] [asm_amd64.s:522]  Handler crashed with error <Ormer> table: `.string` not found, make sure it was registered with `RegisterModel()`
+2018/10/16 15:19:40.703 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/asm_amd64.s:522
+2018/10/16 15:19:40.703 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/panic.go:513
+2018/10/16 15:19:40.703 [C] [asm_amd64.s:522]  /Users/xy/go/src/github.com/astaxie/beego/orm/orm.go:113
+2018/10/16 15:19:40.703 [C] [asm_amd64.s:522]  /Users/xy/go/src/github.com/astaxie/beego/orm/orm.go:127
+2018/10/16 15:19:40.703 [C] [asm_amd64.s:522]  /Users/xy/go/src/XyBeeGoDemo/models/UserCenterModel.go:54
+2018/10/16 15:19:40.703 [C] [asm_amd64.s:522]  /Users/xy/go/src/XyBeeGoDemo/controllers/UserCenter.go:30
+2018/10/16 15:19:40.703 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/asm_amd64.s:522
+2018/10/16 15:19:40.703 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/reflect/value.go:447
+2018/10/16 15:19:40.703 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/reflect/value.go:308
+2018/10/16 15:19:40.703 [C] [asm_amd64.s:522]  /Users/xy/go/src/github.com/astaxie/beego/router.go:847
+2018/10/16 15:19:40.704 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/net/http/server.go:2741
+2018/10/16 15:19:40.704 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/net/http/server.go:1847
+2018/10/16 15:19:40.704 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/asm_amd64.s:1333
+2018/10/16 15:19:40.704 [server.go:2977]  [HTTP] http: multiple response.WriteHeader calls
+2018/10/16 15:19:40.864 [C] [asm_amd64.s:522]  the request url is  /usercenter/login
+2018/10/16 15:19:40.864 [C] [asm_amd64.s:522]  Handler crashed with error <Ormer> table: `.string` not found, make sure it was registered with `RegisterModel()`
+2018/10/16 15:19:40.864 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/asm_amd64.s:522
+2018/10/16 15:19:40.864 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/panic.go:513
+2018/10/16 15:19:40.864 [C] [asm_amd64.s:522]  /Users/xy/go/src/github.com/astaxie/beego/orm/orm.go:113
+2018/10/16 15:19:40.864 [C] [asm_amd64.s:522]  /Users/xy/go/src/github.com/astaxie/beego/orm/orm.go:127
+2018/10/16 15:19:40.864 [C] [asm_amd64.s:522]  /Users/xy/go/src/XyBeeGoDemo/models/UserCenterModel.go:54
+2018/10/16 15:19:40.864 [C] [asm_amd64.s:522]  /Users/xy/go/src/XyBeeGoDemo/controllers/UserCenter.go:30
+2018/10/16 15:19:40.864 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/asm_amd64.s:522
+2018/10/16 15:19:40.864 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/reflect/value.go:447
+2018/10/16 15:19:40.864 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/reflect/value.go:308
+2018/10/16 15:19:40.864 [C] [asm_amd64.s:522]  /Users/xy/go/src/github.com/astaxie/beego/router.go:847
+2018/10/16 15:19:40.864 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/net/http/server.go:2741
+2018/10/16 15:19:40.864 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/net/http/server.go:1847
+2018/10/16 15:19:40.864 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/asm_amd64.s:1333
+2018/10/16 15:19:40.864 [server.go:2977]  [HTTP] http: multiple response.WriteHeader calls
+2018/10/16 15:20:43.863 [I] [asm_amd64.s:1333]  http server Running on http://127.0.0.1:8080
+2018/10/16 15:20:43.863 [I] [asm_amd64.s:1333]  Admin server Running on localhost:8088
+2018/10/16 15:20:45.996 [C] [asm_amd64.s:522]  the request url is  /usercenter/login
+2018/10/16 15:20:45.996 [C] [asm_amd64.s:522]  Handler crashed with error <Ormer> table: `.` not found, make sure it was registered with `RegisterModel()`
+2018/10/16 15:20:45.996 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/asm_amd64.s:522
+2018/10/16 15:20:45.996 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/panic.go:513
+2018/10/16 15:20:45.996 [C] [asm_amd64.s:522]  /Users/xy/go/src/github.com/astaxie/beego/orm/orm.go:113
+2018/10/16 15:20:45.996 [C] [asm_amd64.s:522]  /Users/xy/go/src/github.com/astaxie/beego/orm/orm.go:127
+2018/10/16 15:20:45.997 [C] [asm_amd64.s:522]  /Users/xy/go/src/XyBeeGoDemo/models/UserCenterModel.go:54
+2018/10/16 15:20:45.997 [C] [asm_amd64.s:522]  /Users/xy/go/src/XyBeeGoDemo/controllers/UserCenter.go:30
+2018/10/16 15:20:45.997 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/asm_amd64.s:522
+2018/10/16 15:20:45.997 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/reflect/value.go:447
+2018/10/16 15:20:45.997 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/reflect/value.go:308
+2018/10/16 15:20:45.997 [C] [asm_amd64.s:522]  /Users/xy/go/src/github.com/astaxie/beego/router.go:847
+2018/10/16 15:20:45.997 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/net/http/server.go:2741
+2018/10/16 15:20:45.997 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/net/http/server.go:1847
+2018/10/16 15:20:45.997 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/asm_amd64.s:1333
+2018/10/16 15:20:45.997 [server.go:2977]  [HTTP] http: multiple response.WriteHeader calls
+2018/10/16 15:20:59.072 [I] [asm_amd64.s:1333]  http server Running on http://127.0.0.1:8080
+2018/10/16 15:20:59.073 [I] [asm_amd64.s:1333]  Admin server Running on localhost:8088
+2018/10/16 15:20:59.722 [C] [asm_amd64.s:522]  the request url is  /usercenter/login
+2018/10/16 15:20:59.722 [C] [asm_amd64.s:522]  Handler crashed with error <Ormer> table: `.` not found, make sure it was registered with `RegisterModel()`
+2018/10/16 15:20:59.722 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/asm_amd64.s:522
+2018/10/16 15:20:59.722 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/panic.go:513
+2018/10/16 15:20:59.722 [C] [asm_amd64.s:522]  /Users/xy/go/src/github.com/astaxie/beego/orm/orm.go:113
+2018/10/16 15:20:59.722 [C] [asm_amd64.s:522]  /Users/xy/go/src/github.com/astaxie/beego/orm/orm.go:127
+2018/10/16 15:20:59.722 [C] [asm_amd64.s:522]  /Users/xy/go/src/XyBeeGoDemo/models/UserCenterModel.go:54
+2018/10/16 15:20:59.722 [C] [asm_amd64.s:522]  /Users/xy/go/src/XyBeeGoDemo/controllers/UserCenter.go:30
+2018/10/16 15:20:59.722 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/asm_amd64.s:522
+2018/10/16 15:20:59.722 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/reflect/value.go:447
+2018/10/16 15:20:59.722 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/reflect/value.go:308
+2018/10/16 15:20:59.722 [C] [asm_amd64.s:522]  /Users/xy/go/src/github.com/astaxie/beego/router.go:847
+2018/10/16 15:20:59.722 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/net/http/server.go:2741
+2018/10/16 15:20:59.722 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/net/http/server.go:1847
+2018/10/16 15:20:59.722 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/asm_amd64.s:1333
+2018/10/16 15:20:59.723 [server.go:2977]  [HTTP] http: multiple response.WriteHeader calls
+2018/10/16 15:21:00.528 [C] [asm_amd64.s:522]  the request url is  /usercenter/login
+2018/10/16 15:21:00.528 [C] [asm_amd64.s:522]  Handler crashed with error <Ormer> table: `.` not found, make sure it was registered with `RegisterModel()`
+2018/10/16 15:21:00.529 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/asm_amd64.s:522
+2018/10/16 15:21:00.529 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/panic.go:513
+2018/10/16 15:21:00.529 [C] [asm_amd64.s:522]  /Users/xy/go/src/github.com/astaxie/beego/orm/orm.go:113
+2018/10/16 15:21:00.529 [C] [asm_amd64.s:522]  /Users/xy/go/src/github.com/astaxie/beego/orm/orm.go:127
+2018/10/16 15:21:00.529 [C] [asm_amd64.s:522]  /Users/xy/go/src/XyBeeGoDemo/models/UserCenterModel.go:54
+2018/10/16 15:21:00.529 [C] [asm_amd64.s:522]  /Users/xy/go/src/XyBeeGoDemo/controllers/UserCenter.go:30
+2018/10/16 15:21:00.529 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/asm_amd64.s:522
+2018/10/16 15:21:00.529 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/reflect/value.go:447
+2018/10/16 15:21:00.529 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/reflect/value.go:308
+2018/10/16 15:21:00.529 [C] [asm_amd64.s:522]  /Users/xy/go/src/github.com/astaxie/beego/router.go:847
+2018/10/16 15:21:00.529 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/net/http/server.go:2741
+2018/10/16 15:21:00.529 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/net/http/server.go:1847
+2018/10/16 15:21:00.529 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/asm_amd64.s:1333
+2018/10/16 15:21:00.529 [server.go:2977]  [HTTP] http: multiple response.WriteHeader calls
+2018/10/16 15:21:01.008 [C] [asm_amd64.s:522]  the request url is  /usercenter/login
+2018/10/16 15:21:01.008 [C] [asm_amd64.s:522]  Handler crashed with error <Ormer> table: `.` not found, make sure it was registered with `RegisterModel()`
+2018/10/16 15:21:01.008 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/asm_amd64.s:522
+2018/10/16 15:21:01.008 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/panic.go:513
+2018/10/16 15:21:01.008 [C] [asm_amd64.s:522]  /Users/xy/go/src/github.com/astaxie/beego/orm/orm.go:113
+2018/10/16 15:21:01.008 [C] [asm_amd64.s:522]  /Users/xy/go/src/github.com/astaxie/beego/orm/orm.go:127
+2018/10/16 15:21:01.008 [C] [asm_amd64.s:522]  /Users/xy/go/src/XyBeeGoDemo/models/UserCenterModel.go:54
+2018/10/16 15:21:01.008 [C] [asm_amd64.s:522]  /Users/xy/go/src/XyBeeGoDemo/controllers/UserCenter.go:30
+2018/10/16 15:21:01.008 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/asm_amd64.s:522
+2018/10/16 15:21:01.009 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/reflect/value.go:447
+2018/10/16 15:21:01.009 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/reflect/value.go:308
+2018/10/16 15:21:01.009 [C] [asm_amd64.s:522]  /Users/xy/go/src/github.com/astaxie/beego/router.go:847
+2018/10/16 15:21:01.009 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/net/http/server.go:2741
+2018/10/16 15:21:01.009 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/net/http/server.go:1847
+2018/10/16 15:21:01.009 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/asm_amd64.s:1333
+2018/10/16 15:21:01.009 [server.go:2977]  [HTTP] http: multiple response.WriteHeader calls
+2018/10/16 15:21:01.920 [C] [asm_amd64.s:522]  the request url is  /usercenter/login
+2018/10/16 15:21:01.920 [C] [asm_amd64.s:522]  Handler crashed with error <Ormer> table: `.` not found, make sure it was registered with `RegisterModel()`
+2018/10/16 15:21:01.920 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/asm_amd64.s:522
+2018/10/16 15:21:01.920 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/panic.go:513
+2018/10/16 15:21:01.920 [C] [asm_amd64.s:522]  /Users/xy/go/src/github.com/astaxie/beego/orm/orm.go:113
+2018/10/16 15:21:01.920 [C] [asm_amd64.s:522]  /Users/xy/go/src/github.com/astaxie/beego/orm/orm.go:127
+2018/10/16 15:21:01.920 [C] [asm_amd64.s:522]  /Users/xy/go/src/XyBeeGoDemo/models/UserCenterModel.go:54
+2018/10/16 15:21:01.920 [C] [asm_amd64.s:522]  /Users/xy/go/src/XyBeeGoDemo/controllers/UserCenter.go:30
+2018/10/16 15:21:01.920 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/asm_amd64.s:522
+2018/10/16 15:21:01.920 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/reflect/value.go:447
+2018/10/16 15:21:01.920 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/reflect/value.go:308
+2018/10/16 15:21:01.920 [C] [asm_amd64.s:522]  /Users/xy/go/src/github.com/astaxie/beego/router.go:847
+2018/10/16 15:21:01.920 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/net/http/server.go:2741
+2018/10/16 15:21:01.920 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/net/http/server.go:1847
+2018/10/16 15:21:01.920 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/asm_amd64.s:1333
+2018/10/16 15:21:01.921 [server.go:2977]  [HTTP] http: multiple response.WriteHeader calls
+2018/10/16 15:21:35.982 [I] [asm_amd64.s:1333]  http server Running on http://127.0.0.1:8080
+2018/10/16 15:21:35.982 [I] [asm_amd64.s:1333]  Admin server Running on localhost:8088
+2018/10/16 15:21:37.193 [D] [UserCenter.go:35]  exist 
+2018/10/16 15:21:37.193 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|   1.039904ms|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/10/16 15:28:00.819 [I] [asm_amd64.s:1333]  http server Running on http://127.0.0.1:8080
+2018/10/16 15:28:00.819 [I] [asm_amd64.s:1333]  Admin server Running on localhost:8088
+2018/10/16 15:28:03.975 [D] [UserCenter.go:37]  exist 
+2018/10/16 15:28:03.975 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|      1.013ms|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/10/16 15:28:48.058 [I] [asm_amd64.s:1333]  Admin server Running on localhost:8088
+2018/10/16 15:28:48.058 [I] [asm_amd64.s:1333]  http server Running on http://127.0.0.1:8080
+2018/10/16 15:28:53.147 [D] [UserCenter.go:38]  exist 
+2018/10/16 15:28:53.147 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|   1.280424ms|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/10/16 15:29:15.008 [I] [asm_amd64.s:1333]  http server Running on http://127.0.0.1:8080
+2018/10/16 15:29:15.008 [I] [asm_amd64.s:1333]  Admin server Running on localhost:8088
+2018/10/16 15:29:17.571 [D] [UserCenter.go:38]  exist 
+2018/10/16 15:29:17.571 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|   1.410169ms|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/10/16 15:29:55.872 [I] [asm_amd64.s:1333]  http server Running on http://127.0.0.1:8080
+2018/10/16 15:29:55.872 [I] [asm_amd64.s:1333]  Admin server Running on localhost:8088
+2018/10/16 15:30:45.692 [I] [asm_amd64.s:1333]  http server Running on http://127.0.0.1:8080
+2018/10/16 15:30:45.692 [I] [asm_amd64.s:1333]  Admin server Running on localhost:8088
+2018/10/16 15:30:47.395 [D] [UserCenter.go:38]  exist 
+2018/10/16 15:30:47.395 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|   1.305811ms|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/10/16 15:38:26.444 [I] [asm_amd64.s:1333]  http server Running on http://127.0.0.1:8080
+2018/10/16 15:38:26.446 [I] [asm_amd64.s:1333]  Admin server Running on localhost:8088
+2018/10/16 15:38:28.711 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|   1.058248ms|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/10/16 15:38:47.259 [I] [asm_amd64.s:1333]  http server Running on http://127.0.0.1:8080
+2018/10/16 15:38:47.260 [I] [asm_amd64.s:1333]  Admin server Running on localhost:8088
+2018/10/16 15:39:01.773 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m| 13.43961713s|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/10/16 15:39:33.823 [D] [UserCenter.go:34]  exist 
+2018/10/16 15:39:33.824 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|24.251082331s|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/10/16 15:39:33.880 [D] [server.go:2741]  |      127.0.0.1|[43m 404 [0m|    701.989µs| nomatch|[44m GET     [0m /favicon.ico
+2018/10/16 15:39:57.332 [I] [asm_amd64.s:1333]  Admin server Running on localhost:8088
+2018/10/16 15:39:57.333 [I] [asm_amd64.s:1333]  http server Running on http://127.0.0.1:8080
+2018/10/16 15:39:58.786 [D] [UserCenter.go:34]  exist 
+2018/10/16 15:39:58.787 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|   1.505498ms|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/10/16 15:41:26.420 [D] [asm_amd64.s:522]  注册成功
+2018/10/16 15:41:26.420 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|   1.445556ms|   match|[44m GET     [0m /usercenter/regist   r:/usercenter/regist/*
+2018/10/16 15:41:26.438 [D] [server.go:2741]  |      127.0.0.1|[43m 404 [0m|    392.785µs| nomatch|[44m GET     [0m /favicon.ico
+2018/10/16 15:42:39.790 [I] [asm_amd64.s:1333]  http server Running on http://127.0.0.1:8080
+2018/10/16 15:42:39.790 [I] [asm_amd64.s:1333]  Admin server Running on localhost:8088
+2018/10/16 15:43:29.841 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|     940.29µs|   match|[44m GET     [0m /usercenter/regist   r:/usercenter/regist/*
+2018/10/16 15:53:58.117 [I] [asm_amd64.s:1333]  http server Running on http://127.0.0.1:8080
+2018/10/16 15:53:58.117 [I] [asm_amd64.s:1333]  Admin server Running on localhost:8088
+2018/10/16 15:54:01.379 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    857.718µs|   match|[44m GET     [0m /usercenter/regist   r:/usercenter/regist/*
+2018/10/16 15:54:07.653 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    814.848µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/10/16 15:54:07.868 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|   1.098158ms|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/10/16 15:54:10.559 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    820.449µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/10/16 15:54:11.287 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    947.694µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/10/16 15:54:11.310 [D] [server.go:2741]  |      127.0.0.1|[43m 404 [0m|    384.669µs| nomatch|[44m GET     [0m /favicon.ico
+2018/10/16 15:56:12.714 [I] [asm_amd64.s:1333]  http server Running on http://127.0.0.1:8080
+2018/10/16 15:56:12.714 [I] [asm_amd64.s:1333]  Admin server Running on localhost:8088
+2018/10/16 16:23:53.460 [I] [asm_amd64.s:1333]  http server Running on http://127.0.0.1:8080
+2018/10/16 16:23:53.461 [I] [asm_amd64.s:1333]  Admin server Running on localhost:8088
+2018/10/16 16:24:16.619 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|   1.109178ms|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/10/16 16:26:04.888 [I] [asm_amd64.s:1333]  http server Running on http://127.0.0.1:8080
+2018/10/16 16:26:04.888 [I] [asm_amd64.s:1333]  Admin server Running on localhost:8088
+2018/10/16 16:26:06.005 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|   1.310512ms|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/10/16 16:26:26.441 [I] [asm_amd64.s:1333]  http server Running on http://127.0.0.1:8080
+2018/10/16 16:26:26.442 [I] [asm_amd64.s:1333]  Admin server Running on localhost:8088
+2018/10/16 16:26:41.532 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|   1.313144ms|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/10/16 16:27:08.197 [I] [asm_amd64.s:1333]  http server Running on http://127.0.0.1:8080
+2018/10/16 16:27:08.197 [I] [asm_amd64.s:1333]  Admin server Running on localhost:8088
+2018/10/16 17:10:31.055 [I] [asm_amd64.s:1333]  http server Running on http://127.0.0.1:8080
+2018/10/16 17:10:31.055 [I] [asm_amd64.s:1333]  Admin server Running on localhost:8088
+2018/10/16 17:10:35.645 [D] [server.go:2741]  |      127.0.0.1|[43m 404 [0m|    510.528µs| nomatch|[44m GET     [0m /  
+2018/10/16 17:10:38.129 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    808.397µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/10/16 17:10:49.145 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    498.386µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/10/16 17:10:49.514 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    498.582µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/10/16 17:11:56.393 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    959.345µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/10/16 17:26:57.855 [I] [asm_amd64.s:1333]  http server Running on http://127.0.0.1:8080
+2018/10/16 17:26:57.855 [I] [asm_amd64.s:1333]  Admin server Running on localhost:8088
+2018/10/16 17:27:26.424 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m| 22.38346902s|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/10/16 17:27:49.979 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|19.545354398s|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/10/16 17:28:35.947 [I] [asm_amd64.s:1333]  http server Running on http://127.0.0.1:8080
+2018/10/16 17:28:35.947 [I] [asm_amd64.s:1333]  Admin server Running on localhost:8088
+2018/10/16 17:28:41.387 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|   1.208439ms|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/10/16 17:28:41.839 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    477.346µs|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/10/16 17:28:48.631 [E] [UserCenterModel.go:47]  Error 1366: Incorrect string value: '\xFC\xE4c\xA3H\xDC...' for column 'user_id' at row 1 
+2018/10/16 17:28:48.631 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|   1.407471ms|   match|[44m GET     [0m /usercenter/regist   r:/usercenter/regist/*
+2018/10/16 17:28:50.064 [E] [UserCenterModel.go:47]  Error 1366: Incorrect string value: '\xFC\xE4c\xA3H\xDC...' for column 'user_id' at row 1 
+2018/10/16 17:28:50.064 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|     832.66µs|   match|[44m GET     [0m /usercenter/regist   r:/usercenter/regist/*
+2018/10/16 17:28:50.084 [D] [server.go:2741]  |      127.0.0.1|[43m 404 [0m|    482.796µs| nomatch|[44m GET     [0m /favicon.ico
+2018/10/16 17:30:07.966 [I] [asm_amd64.s:1333]  http server Running on http://127.0.0.1:8080
+2018/10/16 17:30:07.966 [I] [asm_amd64.s:1333]  Admin server Running on localhost:8088
+2018/10/16 17:30:10.693 [D] [asm_amd64.s:522]  注册成功
+2018/10/16 17:30:10.693 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|   3.070158ms|   match|[44m GET     [0m /usercenter/regist   r:/usercenter/regist/*
+2018/10/16 17:31:21.905 [I] [asm_amd64.s:1333]  http server Running on http://127.0.0.1:8080
+2018/10/16 17:31:21.905 [I] [asm_amd64.s:1333]  Admin server Running on localhost:8088
+2018/10/16 17:31:29.512 [D] [asm_amd64.s:522]  注册成功
+2018/10/16 17:31:29.513 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|   2.304002ms|   match|[44m GET     [0m /usercenter/regist   r:/usercenter/regist/*
+2018/10/16 17:34:45.555 [D] [server.go:2741]  |      127.0.0.1|[43m 404 [0m|    386.916µs| nomatch|[44m GET     [0m /usercenter/resetPassword
+2018/10/16 17:34:45.587 [D] [server.go:2741]  |      127.0.0.1|[43m 404 [0m|    333.438µs| nomatch|[44m GET     [0m /favicon.ico
+2018/10/16 17:34:49.750 [D] [server.go:2741]  |      127.0.0.1|[43m 404 [0m|     207.79µs| nomatch|[44m GET     [0m /usercenter/resetpassword
+2018/10/16 17:34:49.774 [D] [server.go:2741]  |      127.0.0.1|[43m 404 [0m|    230.343µs| nomatch|[44m GET     [0m /favicon.ico
+2018/10/16 17:35:05.449 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    502.461µs|   match|[44m GET     [0m /usercenter/reset   r:/usercenter/reset/*
+2018/10/16 17:35:05.470 [D] [server.go:2741]  |      127.0.0.1|[43m 404 [0m|    221.957µs| nomatch|[44m GET     [0m /favicon.ico
+2018/10/16 17:35:25.819 [I] [asm_amd64.s:1333]  http server Running on http://127.0.0.1:8080
+2018/10/16 17:35:25.819 [I] [asm_amd64.s:1333]  Admin server Running on localhost:8088
+2018/10/16 17:35:28.353 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|   1.645085ms|   match|[44m GET     [0m /usercenter/reset   r:/usercenter/reset/*
+2018/10/16 17:35:56.667 [I] [asm_amd64.s:1333]  http server Running on http://127.0.0.1:8080
+2018/10/16 17:35:56.667 [I] [asm_amd64.s:1333]  Admin server Running on localhost:8088
+2018/10/16 17:36:23.324 [I] [asm_amd64.s:1333]  http server Running on http://127.0.0.1:8080
+2018/10/16 17:36:23.325 [I] [asm_amd64.s:1333]  Admin server Running on localhost:8088
+2018/10/16 17:36:27.256 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m| 2.903136939s|   match|[44m GET     [0m /usercenter/reset   r:/usercenter/reset/*
+2018/10/16 17:36:35.860 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|   1.224563ms|   match|[44m GET     [0m /usercenter/reset   r:/usercenter/reset/*
+2018/10/16 17:36:35.879 [D] [server.go:2741]  |      127.0.0.1|[43m 404 [0m|    412.749µs| nomatch|[44m GET     [0m /favicon.ico
+2018/10/16 17:36:52.809 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|   2.096366ms|   match|[44m GET     [0m /usercenter/reset   r:/usercenter/reset/*
+2018/10/16 17:36:53.492 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|   1.879304ms|   match|[44m GET     [0m /usercenter/reset   r:/usercenter/reset/*
+2018/10/16 17:36:53.934 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|   1.213323ms|   match|[44m GET     [0m /usercenter/reset   r:/usercenter/reset/*
+2018/10/16 17:38:04.878 [I] [asm_amd64.s:1333]  http server Running on http://127.0.0.1:8080
+2018/10/16 17:38:04.878 [I] [asm_amd64.s:1333]  Admin server Running on localhost:8088
+2018/10/16 17:38:08.282 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    2.35787ms|   match|[44m GET     [0m /usercenter/reset   r:/usercenter/reset/*

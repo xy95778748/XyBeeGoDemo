@@ -16,4 +16,5 @@ import (
 func init() {
 
 	beego.AutoRouter(&controllers.UserCenterController{})
+	beego.AutoRouter(&controllers.BankController{})
 }
