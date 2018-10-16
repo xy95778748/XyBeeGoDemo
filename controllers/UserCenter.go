@@ -20,8 +20,10 @@ func (self *UserCenterController) Login() {
 
 	mUserModel := new(models.UserModel)
 
+	userPass := ""
+
 	self.Ctx.Input.Bind(&mUserModel.Name, "name")
-	self.Ctx.Input.Bind(&mUserModel.Pass, "pass")
+	self.Ctx.Input.Bind(&userPass, "pass")
 
 	var res Commons.ResponseModel
 
@@ -31,10 +33,16 @@ func (self *UserCenterController) Login() {
 	}
 
 	if mUserModel.UserIsExist() {
-		if mUserModel.GetUserPass() == mUserModel.Pass {
-			res.Success(nil)
+		if mUserModel.GetUser() {
+
+			if userPass == mUserModel.Pass {
+				res.Success(mUserModel)
+			} else {
+				res.Failed("密码错误")
+			}
+
 		} else {
-			res.Failed("密码错误")
+			beego.Error("error")
 		}
 	} else {
 		res.Failed("账号不存在")
@@ -59,7 +67,6 @@ func (self *UserCenterController) Regist() {
 		res.Failed("账号或密码不能为空")
 	}
 
-
 	if mUserModel.UserIsExist() {
 		res.Failed("账号存在, 可以使用该账号直接登录")
 	} else {
@@ -68,7 +75,7 @@ func (self *UserCenterController) Regist() {
 			bankModel := new(models.BankModel)
 			bankModel.UserId = mUserModel.UserId
 			bankModel.InsertBalance()
-			res.Success(map[string]string{"userId": mUserModel.UserId})
+			res.Success(nil)
 		} else {
 			res.Failed("注册失败, 清稍后再试")
 		}

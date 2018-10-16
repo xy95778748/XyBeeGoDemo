@@ -1,17 +1,14 @@
 package controllers
 
 import (
-	"fmt"
-	"github.com/astaxie/beego"
-	"XyBeeGoDemo/models"
 	"XyBeeGoDemo/Commons"
-	"strconv"
+	"XyBeeGoDemo/models"
+	"github.com/astaxie/beego"
 )
 
 type BankMoney struct {
 	beego.Controller
 }
-
 
 func (self *BankMoney) SaveMoney() {
 
@@ -79,8 +76,3 @@ func (self *BankMoney) WithdrawMoney () {
 	self.ServeJSON()
 }
 
-// private
-func floatToDoublePoint (value float64) float64 {
-	value, _ = strconv.ParseFloat(fmt.Sprintf("%.2f", value), 32)
-	return value
-}

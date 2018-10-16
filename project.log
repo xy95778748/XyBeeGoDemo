@@ -1304,3 +1304,39 @@
 2018/10/16 22:25:34.695 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|   2.430982ms|   match|[44m GET     [0m /bankmoney/withdrawmoney   r:/bankmoney/withdrawmoney/*
 2018/10/16 22:25:34.739 [D] [server.go:2741]  |      127.0.0.1|[43m 404 [0m|    507.433µs| nomatch|[44m GET     [0m /favicon.ico
 2018/10/16 22:25:35.822 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|   1.058141ms|   match|[44m GET     [0m /bankmoney/withdrawmoney   r:/bankmoney/withdrawmoney/*
+2018/10/16 23:17:37.631 [I] [asm_amd64.s:1333]  http server Running on http://127.0.0.1:8080
+2018/10/16 23:17:37.632 [I] [asm_amd64.s:1333]  Admin server Running on localhost:8088
+2018/10/16 23:28:12.942 [I] [asm_amd64.s:1333]  http server Running on http://:80
+2018/10/16 23:28:12.942 [I] [asm_amd64.s:1333]  Admin server Running on localhost:8088
+2018/10/16 23:29:08.258 [I] [asm_amd64.s:1333]  http server Running on http://:80
+2018/10/16 23:29:08.258 [I] [asm_amd64.s:1333]  Admin server Running on localhost:8088
+2018/10/16 23:29:25.765 [I] [asm_amd64.s:1333]  http server Running on http://127.0.0.1:8080
+2018/10/16 23:29:25.765 [I] [asm_amd64.s:1333]  Admin server Running on localhost:8088
+2018/10/16 23:29:28.348 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|   1.138119ms|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/10/16 23:33:27.337 [I] [asm_amd64.s:1333]  http server Running on http://127.0.0.1:8080
+2018/10/16 23:33:27.337 [I] [asm_amd64.s:1333]  Admin server Running on localhost:8088
+2018/10/16 23:33:30.295 [C] [asm_amd64.s:522]  the request url is  /usercenter/login
+2018/10/16 23:33:30.295 [C] [asm_amd64.s:522]  Handler crashed with error <Ormer> table: `.` not found, make sure it was registered with `RegisterModel()`
+2018/10/16 23:33:30.295 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/asm_amd64.s:522
+2018/10/16 23:33:30.295 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/panic.go:513
+2018/10/16 23:33:30.295 [C] [asm_amd64.s:522]  /Users/newlife/go/src/github.com/astaxie/beego/orm/orm.go:113
+2018/10/16 23:33:30.295 [C] [asm_amd64.s:522]  /Users/newlife/go/src/github.com/astaxie/beego/orm/orm.go:127
+2018/10/16 23:33:30.295 [C] [asm_amd64.s:522]  /Users/newlife/go/src/XyBeeGoDemo/models/UserCenterModel.go:53
+2018/10/16 23:33:30.295 [C] [asm_amd64.s:522]  /Users/newlife/go/src/XyBeeGoDemo/controllers/UserCenter.go:36
+2018/10/16 23:33:30.295 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/asm_amd64.s:522
+2018/10/16 23:33:30.295 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/reflect/value.go:447
+2018/10/16 23:33:30.295 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/reflect/value.go:308
+2018/10/16 23:33:30.295 [C] [asm_amd64.s:522]  /Users/newlife/go/src/github.com/astaxie/beego/router.go:847
+2018/10/16 23:33:30.295 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/net/http/server.go:2741
+2018/10/16 23:33:30.296 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/net/http/server.go:1847
+2018/10/16 23:33:30.296 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/asm_amd64.s:1333
+2018/10/16 23:33:30.296 [server.go:2977]  [HTTP] http: multiple response.WriteHeader calls
+2018/10/16 23:34:40.342 [I] [asm_amd64.s:1333]  http server Running on http://127.0.0.1:8080
+2018/10/16 23:34:40.342 [I] [asm_amd64.s:1333]  Admin server Running on localhost:8088
+2018/10/16 23:34:43.022 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|   1.131679ms|   match|[44m GET     [0m /usercenter/login   r:/usercenter/login/*
+2018/10/16 23:39:06.749 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    501.839µs|   match|[44m GET     [0m /usercenter/regist   r:/usercenter/regist/*
+2018/10/16 23:39:06.806 [D] [server.go:2741]  |      127.0.0.1|[43m 404 [0m|     427.57µs| nomatch|[44m GET     [0m /favicon.ico
+2018/10/16 23:39:07.475 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    510.269µs|   match|[44m GET     [0m /usercenter/regist   r:/usercenter/regist/*
+2018/10/16 23:39:10.652 [D] [asm_amd64.s:522]  注册成功
+2018/10/16 23:39:10.655 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|   5.729817ms|   match|[44m GET     [0m /usercenter/regist   r:/usercenter/regist/*
+2018/10/16 23:39:10.703 [D] [server.go:2741]  |      127.0.0.1|[43m 404 [0m|    516.756µs| nomatch|[44m GET     [0m /favicon.ico

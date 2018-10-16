@@ -46,15 +46,11 @@ func (self *UserModel) InsetUser() bool {
 	return err == nil
 }
 
-func (self *UserModel) GetUserPass() string {
+func (self *UserModel) GetUser() bool {
 
 	mORM := orm.NewOrm()
 
-	var pass string
-
-	mORM.Raw("select pass from user_model where name = ?", self.Name).QueryRow(&pass)
-
-	return pass
+	return mORM.Read(self, "name") == nil
 }
 
 func (self *UserModel) ResetPassword() bool {
