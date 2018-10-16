@@ -5,27 +5,26 @@ import (
 	"github.com/astaxie/beego"
 )
 
-func init() {
-
-	orm.RegisterDataBase("default", "mysql", "root:95778748@tcp(127.0.0.1:3306)/User?charset=utf8", 30)
-
-	orm.RegisterModel(new(BankModel))
-
-	orm.RunSyncdb("default", false, true)
-
-	orm.Debug = true
-}
-
 type BankModel struct {
 	Id int
 	UserId string
 	Balance float32
 }
 
+func (self *BankModel) InsertBalance() {
+
+	mORM := orm.NewOrm()
+	mORM.Insert(self)
+}
+
 func (self *BankModel) GetBalance() {
 
 	mORM := orm.NewOrm()
+	mORM.Using("default")
 	err := mORM.Read(self, "userId")
+	//var userId string
+	//var balance string
+	//err := mORM.Raw("select balance, id from bank_model where user_id = ?", self.UserId).QueryRow(&balance, &userId)
 	if err != nil {
 		beego.Error(err)
 	}
@@ -34,5 +33,9 @@ func (self *BankModel) GetBalance() {
 func (self *BankModel) UpdateBalance() {
 
 	mORM := orm.NewOrm()
-	mORM.Update(&self, "Balance")
+	//_, err := mORM.Update(&self, "balance")
+	_, err :=mORM.Raw("Update bank_model set balance = ? where user_id = ?", self.Balance, self.UserId).Exec()
+	if err != nil {
+		beego.Error(err)
+	}
 }

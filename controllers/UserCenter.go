@@ -65,6 +65,9 @@ func (self *UserCenterController) Regist() {
 	} else {
 		if mUserModel.InsetUser() { // success
 			logs.Debug("注册成功")
+			bankModel := new(models.BankModel)
+			bankModel.UserId = mUserModel.UserId
+			bankModel.InsertBalance()
 			res.Success(map[string]string{"userId": mUserModel.UserId})
 		} else {
 			res.Failed("注册失败, 清稍后再试")

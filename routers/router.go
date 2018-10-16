@@ -16,5 +16,5 @@ import (
 func init() {
 
 	beego.AutoRouter(&controllers.UserCenterController{})
-	beego.AutoRouter(&controllers.BankController{})
+	beego.AutoRouter(&controllers.BankMoney{})
 }

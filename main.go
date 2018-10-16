@@ -1,11 +1,12 @@
 package main
 
 import (
+	"XyBeeGoDemo/models"
 	_ "XyBeeGoDemo/routers"
+	"github.com/astaxie/beego/orm"
 
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/logs"
-	"fmt"
 )
 
 func main() {
@@ -24,5 +25,15 @@ func main() {
 }
 
 func init() {
-	fmt.Println(1)
+
+	registDataBase()
+}
+
+func registDataBase () {
+
+	orm.RegisterDataBase("default", "mysql", "root:95778748@tcp(127.0.0.1:3306)/User?charset=utf8", 30)
+	orm.RegisterModel(new(models.UserModel))
+	orm.RegisterModel(new(models.BankModel))
+	orm.RunSyncdb("default", false, true)
+	orm.Debug = true
 }

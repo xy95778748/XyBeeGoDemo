@@ -19,17 +19,6 @@ type UserModel struct {
 	UserId      string `json:"userId"`
 }
 
-func init() {
-
-	orm.RegisterDataBase("default", "mysql", "root:95778748@tcp(127.0.0.1:3306)/User?charset=utf8", 30)
-
-	orm.RegisterModel(new(UserModel))
-
-	orm.RunSyncdb("default", false, true)
-
-	orm.Debug = true
-}
-
 func (self *UserModel) UserIsExist() bool {
 
 	mORM := orm.NewOrm()
