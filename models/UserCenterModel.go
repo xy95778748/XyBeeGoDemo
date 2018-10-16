@@ -21,11 +21,11 @@ type UserModel struct {
 
 func init() {
 
-	orm.RegisterDataBase("user", "mysql", "root:95778748@tcp(127.0.0.1:3306)/User?charset=utf8", 30)
+	orm.RegisterDataBase("default", "mysql", "root:95778748@tcp(127.0.0.1:3306)/User?charset=utf8", 30)
 
 	orm.RegisterModel(new(UserModel))
 
-	orm.RunSyncdb("user", false, true)
+	orm.RunSyncdb("default", false, true)
 
 	orm.Debug = true
 }

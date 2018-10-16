@@ -5,6 +5,7 @@ import (
 
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/logs"
+	"fmt"
 )
 
 func main() {
@@ -20,4 +21,8 @@ func main() {
 	beego.Run()
 
 	//beego.Async()
+}
+
+func init() {
+	fmt.Println(1)
 }

@@ -7,11 +7,11 @@ import (
 
 func init() {
 
-	orm.RegisterDataBase("bank", "mysql", "root:95778748@tcp(127.0.0.1:3306)/User?charset=utf8", 30)
+	orm.RegisterDataBase("default", "mysql", "root:95778748@tcp(127.0.0.1:3306)/User?charset=utf8", 30)
 
 	orm.RegisterModel(new(BankModel))
 
-	orm.RunSyncdb("bank", false, true)
+	orm.RunSyncdb("default", false, true)
 
 	orm.Debug = true
 }
